@@ -1,0 +1,227 @@
+{
+  "timezone": "Asia/Kolkata",
+  "threshold": 0.32,
+  "ambiguity_margin": 0.1,
+  "notice": "All dates are demonstration data. Confirm policies with the official examination office.",
+  "events": {
+    "semester": {
+      "label": "Semester exams begin",
+      "date": "2026-11-16"
+    },
+    "hall": {
+      "label": "Hall ticket release",
+      "date": "2026-11-09"
+    },
+    "registration": {
+      "label": "Exam registration closes",
+      "date": "2026-10-30"
+    },
+    "revaluation": {
+      "label": "Revaluation closes",
+      "date": "2026-12-07"
+    }
+  },
+  "faqs": [
+    {
+      "id": "semester",
+      "topic": "Exam schedule",
+      "questions": [
+        "When do semester exams start?",
+        "When is my semester exam?",
+        "semester examination dates schedule timetable",
+        "exam starting date",
+        "When will semester examinations begin?"
+      ],
+      "answer": "Check the examination timetable for your programme, semester and paper code. The date shown here is a sample start date for this demonstration. Confirm the official timetable before making plans.",
+      "event": "semester",
+      "related": [
+        "hall",
+        "registration",
+        "rules"
+      ]
+    },
+    {
+      "id": "hall",
+      "topic": "Hall tickets",
+      "questions": [
+        "How do I get my hall ticket?",
+        "Where can I download the admit card?",
+        "hall ticket issue release download",
+        "When are hall tickets released?"
+      ],
+      "answer": "Check your student portal for the hall ticket announcement. Verify your name, register number and paper codes. If it is missing or incorrect, contact the examination office before the exam.",
+      "event": "hall",
+      "related": [
+        "semester",
+        "registration",
+        "rules"
+      ]
+    },
+    {
+      "id": "revaluation",
+      "topic": "Revaluation",
+      "questions": [
+        "How can I apply for revaluation?",
+        "recheck marks reevaluation answer paper",
+        "revaluation application process",
+        "What is the deadline for revaluation?",
+        "When is the last date to apply for revaluation?"
+      ],
+      "answer": "Look for the official revaluation notice after results are released. Follow the stated application procedure and eligibility rules. The demonstration deadline below is configurable and is not an official college deadline.",
+      "event": "revaluation",
+      "related": [
+        "fee",
+        "photocopy",
+        "results"
+      ]
+    },
+    {
+      "id": "fee",
+      "topic": "Revaluation fee",
+      "questions": [
+        "What is the revaluation fee?",
+        "How much does revaluation cost?",
+        "rechecking payment charges"
+      ],
+      "answer": "The revaluation fee depends on the current college notification. Check the official notice for the fee per paper and the payment method. This demo does not assume a fee amount.",
+      "event": null,
+      "related": [
+        "revaluation",
+        "photocopy",
+        "results"
+      ]
+    },
+    {
+      "id": "results",
+      "topic": "Results",
+      "questions": [
+        "Where can I check my results?",
+        "When are exam results published?",
+        "semester marks result publication",
+        "Where are my marks available?",
+        "Where can I see my semester marks?"
+      ],
+      "answer": "Check the official results portal or examination-office announcement. Keep your register number ready. Result publication dates vary, so this chatbot does not predict a release date.",
+      "event": null,
+      "related": [
+        "revaluation",
+        "photocopy",
+        "arrears"
+      ]
+    },
+    {
+      "id": "attendance",
+      "topic": "Eligibility",
+      "questions": [
+        "What attendance is required for exams?",
+        "minimum attendance percentage eligibility",
+        "Can I write exams with low attendance?"
+      ],
+      "answer": "Confirm the minimum attendance and other eligibility requirements in your programme regulations. If you have an attendance shortage, speak to your department about the applicable procedure. No percentage is assumed in this demo.",
+      "event": null,
+      "related": [
+        "registration",
+        "hall",
+        "rules"
+      ]
+    },
+    {
+      "id": "registration",
+      "topic": "Exam registration",
+      "questions": [
+        "How do I register for exams?",
+        "exam application registration fees payment",
+        "Where can I pay examination fees?",
+        "When is the last date for exam registration?",
+        "What is the exam registration deadline?"
+      ],
+      "answer": "Follow the examination registration notice for your programme. Submit the application and complete any required payment within the announced period. Save the confirmation and verify the registered papers.",
+      "event": "registration",
+      "related": [
+        "hall",
+        "semester",
+        "arrears"
+      ]
+    },
+    {
+      "id": "rules",
+      "topic": "Exam day checklist",
+      "questions": [
+        "What should I bring to the exam?",
+        "exam rules allowed items checklist",
+        "Can I bring my phone or calculator?"
+      ],
+      "answer": "Carry your hall ticket, college ID and permitted stationery. Check the instructions for calculator use, reporting time and prohibited items. Do not assume that phones or smart devices are allowed.",
+      "event": null,
+      "related": [
+        "hall",
+        "semester",
+        "missed"
+      ]
+    },
+    {
+      "id": "missed",
+      "topic": "Missed examinations",
+      "questions": [
+        "What if I miss an exam?",
+        "I was absent from an examination",
+        "missed paper medical emergency"
+      ],
+      "answer": "Contact your department or examination office promptly, especially if there was a medical emergency. Keep supporting documents. A makeup exam or special attempt depends on the official regulations.",
+      "event": null,
+      "related": [
+        "arrears",
+        "registration",
+        "semester"
+      ]
+    },
+    {
+      "id": "arrears",
+      "topic": "Arrear papers",
+      "questions": [
+        "How do I apply for an arrear exam?",
+        "backlog supplementary exam registration",
+        "failed paper repeat examination"
+      ],
+      "answer": "Check the arrear or supplementary examination notice. Confirm the eligible paper codes, registration window and fee with the examination office, then retain your application confirmation.",
+      "event": null,
+      "related": [
+        "registration",
+        "semester",
+        "results"
+      ]
+    },
+    {
+      "id": "photocopy",
+      "topic": "Answer script copy",
+      "questions": [
+        "Can I get a photocopy of my answer script?",
+        "How do I request my evaluated answer sheet?",
+        "answer paper copy application"
+      ],
+      "answer": "Check whether your college offers answer-script copies and review the current notification. Apply using the specified process and deadline. A photocopy request and a revaluation application may be separate processes.",
+      "event": null,
+      "related": [
+        "revaluation",
+        "fee",
+        "results"
+      ]
+    },
+    {
+      "id": "correction",
+      "topic": "Hall ticket corrections",
+      "questions": [
+        "My name is wrong on my hall ticket",
+        "wrong paper code register number correction",
+        "hall ticket mistake details incorrect"
+      ],
+      "answer": "Report the error to the examination office with your college ID and registration confirmation. Ask for the correction procedure before the exam, and retain any written acknowledgement.",
+      "event": null,
+      "related": [
+        "hall",
+        "registration",
+        "rules"
+      ]
+    }
+  ]
+}
