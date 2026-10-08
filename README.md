@@ -6,7 +6,7 @@ A College FAQ Chatbot focused on **Examinations**, built for an MCA AI practical
 
 Install Python 3.10 or newer. No API key, internet connection, package installation or build step is required on systems with timezone data.
 
-1. Open a terminal in the `exam-compass` folder.
+1. Open a terminal in the project folder containing `server.py`.
 2. Run:
 
 ```sh
@@ -36,7 +36,7 @@ Then visit http://localhost:8001. If you receive `ZoneInfoNotFoundError` on a sy
 ## Files
 
 ```text
-exam-compass/
+clarivo/
   chatbot.py          Text preprocessing, vectors, retrieval and countdowns
   server.py           Local HTTP server and two API endpoints
   data/faqs.json      FAQ examples, answers, relationships, dates and thresholds
