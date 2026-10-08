@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clarivo | Examination FAQ</title>
+<meta name="description" content="A college examination FAQ assistant with related questions and date-aware reminders.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%231d3474'/%3E%3Cpath d='M20 7L28 28L20 24L12 28Z' fill='%23d6f16b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+<header class="topbar"><a class="brand" href="/" aria-label="Clarivo home"><span class="brand-icon" aria-hidden="true">✦</span><span>Clarivo<small>THE EXAMINATION DESK</small></span></a><div class="header-note">College FAQ <span>/</span> Examinations</div><span class="demo-label">Assignment demo</span></header>
+<main class="workspace">
+<aside class="calendar" aria-label="Examination calendar">
+<div class="eyebrow">YOUR EXAM HORIZON</div><h1>A little clarity.<br>Ahead of time.</h1><p class="intro">Dates to keep in sight,<br>answers to keep you moving.</p>
+<div class="orbit" aria-hidden="true"><div class="orbit-inner"><span>✦</span></div><span class="orbit-label">PLAN · PREPARE · PROGRESS</span></div>
+<div class="calendar-heading"><h2>On the calendar</h2><span>Sample dates</span></div>
+<div id="events" class="events"><p>Loading calendar…</p></div>
+<div class="calendar-note"><span aria-hidden="true">ⓘ</span><p>These are demonstration dates. Always confirm the official college timetable.</p></div>
+<div class="local-date" id="local-date"></div>
+</aside>
+<section class="chat-panel" aria-label="Examination FAQ chat">
+<div class="chat-heading"><div><div class="eyebrow">ASK. UNDERSTAND. GET READY.</div><h2>Your examination companion</h2></div><button class="reset" id="reset" type="button">New chat</button></div>
+<div class="conversation" id="conversation" role="log" aria-live="polite" aria-relevant="additions" aria-label="Chat messages">
+<div class="welcome" id="welcome"><div class="welcome-mark" aria-hidden="true">✦</div><span class="small-label">ONE LESS THING TO WORRY ABOUT</span><h3>Exams come with questions.<br>Start with yours.</h3><p>From hall tickets to revaluation, find a clear answer and the next question worth asking.</p><div class="starters"><button type="button" data-question="When do semester exams start?"><span class="starter-number">01</span><span>When do exams start?<small>Timetable & important dates</small></span><span class="starter-symbol" aria-hidden="true">↗</span></button><button type="button" data-question="How do I get my hall ticket?"><span class="starter-number">02</span><span>Where is my hall ticket?<small>Before you enter the exam hall</small></span><span class="starter-symbol" aria-hidden="true">↗</span></button><button type="button" data-question="How can I apply for revaluation?"><span class="starter-number">03</span><span>Can I request revaluation?<small>Applications & next steps</small></span><span class="starter-symbol" aria-hidden="true">↗</span></button></div></div>
+</div>
+<div class="composer-wrap"><div id="request-status" class="request-status" role="status"></div><form id="chat-form" class="composer"><label class="sr-only" for="question">Your examination question</label><input id="question" name="question" placeholder="Ask about your exams…" maxlength="500" autocomplete="off" required><button id="send" type="submit" aria-label="Send question"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m5 12 14-7-4 14-3-7-7 0Z"/><path d="m12 12 7-7"/></svg></button></form><div class="composer-foot"><span>Examinations only. No personal details needed.</span><span>Sample FAQ content</span></div></div>
+</section>
+</main><footer class="page-footer"><span>A calmer way to navigate exam season.</span><span>Verify important information with your examination office.</span></footer>
+</div>
+</body></html>
